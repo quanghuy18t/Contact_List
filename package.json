@@ -1,0 +1,36 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.2",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/material-bottom-tabs": "^6.2.29",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "i18next": "^23.15.1",
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-i18next": "^15.0.1",
+    "react-native": "0.74.5",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-paper": "^5.12.5",
+    "react-native-reanimated": "^3.10.1",
+    "react-redux": "^9.1.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
