@@ -46,6 +46,7 @@ export default function Contacts({ navigation }) {
     .then(
       contacts => {
         dispatch(fetchContactsSuccess(contacts));
+        setNewContacts(contacts);
       }
     )
     .catch(
@@ -53,7 +54,7 @@ export default function Contacts({ navigation }) {
         dispatch(fetchContactsError());
       }
     )
-  }, []);
+  }, []); 
 
   const contactsSorted = newContacts.slice().sort((a,b) => a.name.localeCompare(b.name));
   const renderContact = ({item}) => {
